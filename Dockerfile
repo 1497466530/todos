@@ -6,7 +6,7 @@ FROM fangjimjim/meteor-tupperware:ali
 # The maintainer of your app image
 MAINTAINER fjj <fang_jimjim@163.com>
 
-ADD sources1.list /etc/apt/sources.list
+ADD sources.list /etc/apt/sources.list
 
 COPY  ./ /app
 
